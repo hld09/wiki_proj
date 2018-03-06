@@ -1,0 +1,165 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+@import url('https://fonts.googleapis.com/css?family=Dosis|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Assistant:700');
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import "compass/css3";
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/*
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.5em;
+	color: #222;
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area.
+	If you have more than one container, you are probably doing
+	something wrong.
+*/
+a {
+	color: #000000;
+		font-size: 15px;
+		letter-spacing: .1em;
+    text-decoration: none;
+		font-family: "Assistant";
+}
+
+a:hover
+{
+     color:#b18f81;
+     text-decoration:none;
+     cursor:pointer;
+}
+
+img{
+	float: left;
+	margin-top: 80px;
+	margin-left: -560px;
+}
+
+
+h1{
+	position: absolute;
+	z-index: 1;
+	font-family: 'Playfair Display', serif;
+	font-size: 120px;
+	line-height: 140px;
+	margin-top: -30px;
+	letter-spacing: .2em;
+	margin-left: 2%;
+}
+
+
+h1:hover{
+	color: #b18f81;
+}
+
+
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	line-height: 40px;
+	margin-top: 20%;
+	text-align: left;
+	margin-left: 50%;
+	float: left;
+}
+
+h3{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 70px;
+	padding-top: 18px;
+	margin-top: 26%;
+	margin-left: 40%;
+		position: absolute;
+		z-index: 1;
+}
+
+big{
+
+		font-family: 'Playfair Display', serif;
+		font-style: italic;
+		font-size: 30px;
+}
+p{
+	font-size: 13px;
+	position: absolute;
+	z-index: 2;
+	margin-left: 39.7%;
+	width: 30%;
+	margin-top: 30%;
+}
+
+.navcontainer {
+	text-align: right;
+	background-color: #ffffff;
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 90%;
+	max-width: 1250px;
+	padding: 2em;
+}
+
+.container {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 90%;
+	height: 100%;
+	max-width: 1200px;
+	padding: 2em;
+}
+
+
+
+article {
+	position: absolute;
+	z-index: -1;
+	margin-left: -70px;
+	max-width: 400px;
+	margin-top: 1.4%;
+ -moz-column-width: 30em;
+ -webkit-column-width: 30em;
+ -moz-column-gap: 1em;
+ -webkit-column-gap: 1em;
+
+}
+
+img {
+ margin:  0.25rem;
+ padding:  1rem;
+ max-width:  600px;
+}
+
+}
